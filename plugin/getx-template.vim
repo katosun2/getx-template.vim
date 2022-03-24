@@ -73,5 +73,5 @@ endfunc
 
 " 定义命令
 command! -nargs=* GetxGenerate :call g:GeneratePage(<f-args>)
-command! -nargs=* GetxGenerateNormal :call g:GeneratePage(<f-args>, 'easy')
-command! -nargs=* GetxGenerateEasy :call g:GeneratePage(<f-args>, 'normal')
+command! -nargs=* GetxGenerateNormal :call g:GeneratePage(<f-args>, 'normal')
+command! -nargs=* GetxGenerateEasy :call g:GeneratePage(<f-args>, 'easy')
