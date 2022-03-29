@@ -1,9 +1,9 @@
 "=============================================================================
 "     FileName: getx-template.vim
-"         Desc: 
+"         Desc: 生成 getx 模板
 "       Author: Ryu
-"      Version: 0.1.1
-"   LastChange: 2021-07-20 14:45:15
+"      Version: 0.1.2
+"   LastChange: 2022-03-29 18:46:41
 "=============================================================================
 if exists("b:loaded_getxTemplate")
   finish
@@ -12,7 +12,7 @@ let b:loaded_getxTemplate = 1
 
 "定义模板路径
 if !exists('g:getx_templates_path')
-  let g:getx_templates_path=$VIM.'/vimfiles/bundle/getx-template.vim/templates/'
+  let g:getx_templates_path='../templates/'
 endif
 
 "驼峰转成小写下划线
