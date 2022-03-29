@@ -12,13 +12,15 @@ class _@namePageState extends State<@namePage> {
   final @nameLogic logic = Get.put(@nameLogic());
 
   @override
-    Widget build(BuildContext context) {
-      return Container();
-    }
 
-  @override
   void dispose() {
     Get.delete<@nameLogic>();
     super.dispose();
+  }
+  @override
+  Widget build(BuildContext context) {
+    return GetBuilder<@nameLogic>(builder: (logic) {
+      return Container();
+    };
   }
 }
