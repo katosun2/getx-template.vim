@@ -5,6 +5,6 @@ import 'logic.dart';
 class @nameBinding extends Bindings {
   @override
   void dependencies() {
-    Get.lazyPut(() => @nameLogic());
+    Get.lazyPut<@nameLogic>(() => @nameLogic());
   }
 }
