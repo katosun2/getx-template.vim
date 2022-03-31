@@ -7,6 +7,9 @@ class @nameLogic extends GetxController {
 
   @override
   void onReady() {
+    //var map = Get.arguments;
+    //msg = map['msg'];
+    //update();
     // TODO: implement onReady
     super.onReady();
   }

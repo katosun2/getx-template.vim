@@ -16,6 +16,7 @@ class _@namePageState extends State<@namePage> {
   @override
 
   void dispose() {
+    // 自动回收
     Get.delete<@nameLogic>();
     super.dispose();
   }
