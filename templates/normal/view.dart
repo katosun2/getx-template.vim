@@ -14,6 +14,11 @@ class _@namePageState extends State<@namePage> {
   final @nameState state = Get.find<@nameLogic>().state;
 
   @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
   void dispose() {
     // 自动回收
     Get.delete<@nameLogic>();
