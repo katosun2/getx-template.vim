@@ -6,6 +6,11 @@ class @nameLogic extends GetxController {
   final state = @nameState();
 
   @override
+  void onInit() {
+    super.onInit();
+  }
+
+  @override
   void onReady() {
     //var map = Get.arguments;
     //msg = map['msg'];
