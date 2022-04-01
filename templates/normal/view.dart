@@ -4,12 +4,12 @@ import 'package:get/get.dart';
 import 'logic.dart';
 import 'state.dart';
 
-class @namePage extends StatefulWidget {
+class @nameView extends StatefulWidget {
   @override
-  _@namePageState createState() => _@namePageState();
+  _@nameViewState createState() => _@nameViewState();
 }
 
-class _@namePageState extends State<@namePage> {
+class _@nameViewState extends State<@nameView> {
   final @nameLogic logic = Get.put(@nameLogic());
   final @nameState state = Get.find<@nameLogic>().state;
 
