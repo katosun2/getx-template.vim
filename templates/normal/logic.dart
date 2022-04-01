@@ -5,6 +5,11 @@ import 'state.dart';
 class @nameLogic extends GetxController {
   final state = @nameState();
 
+  // 暴露给view来刷新
+  void updateView() {
+    update();
+  }
+
   @override
   void onInit() {
     super.onInit();
